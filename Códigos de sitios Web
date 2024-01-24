@@ -1,4 +1,3 @@
-HTML
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -43,4 +42,49 @@ HTML
     </footer>
 </body>
 </html>
+
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, nav, section, footer {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+/* Estilos específicos */
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Añade más estilos según sea necesario */
+
+// Ejemplo simple de JavaScript para cambiar el color de fondo al hacer clic en un botón
+
+document.addEventListener('DOMContentLoaded', function() {
+    var cambiarColorBoton = document.getElementById('cambiar-color-boton');
+    var body = document.body;
+
+    cambiarColorBoton.addEventListener('click', function() {
+        var color = prompt('Ingrese un color hexadecimal (#RRGGBB):', '#ffffff');
+        body.style.backgroundColor = color;
+    });
+});
 
