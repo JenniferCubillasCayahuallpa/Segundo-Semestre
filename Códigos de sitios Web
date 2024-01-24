@@ -1,0 +1,46 @@
+HTML
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <!-- Enlaces a archivos CSS y JavaScript aquí -->
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a Mi Escuela</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#quienes-somos">Quiénes Somos</a></li>
+            <li><a href="#cursos">Cursos</a></li>
+            <!-- Agrega más elementos según sea necesario -->
+        </ul>
+    </nav>
+
+    <section id="inicio">
+        <h2>Sección de Inicio</h2>
+        <p>Breve descripción de la escuela y su misión.</p>
+    </section>
+
+    <section id="quienes-somos">
+        <h2>Quiénes Somos</h2>
+        <p>Información sobre la historia y los valores de la escuela.</p>
+    </section>
+
+    <section id="cursos">
+        <h2>Nuestros Cursos</h2>
+        <p>Lista de cursos ofrecidos con descripciones breves.</p>
+    </section>
+
+    <!-- Agrega más secciones según sea necesario -->
+
+    <footer>
+        <p>&copy; 2024 Mi Escuela. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
+
