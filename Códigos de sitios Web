@@ -1,2 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+     <meta  charset =" UTF-8 " 
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Pagina Web</title>
+     <link rel="stylesheet" href="./css/style.css">
+</head>
+<header>
+     <nav class="navbar">
+          <div class="navbar-logo">
+               <img src="./img/logoVG.png" alt="LogoVg">
+          </div>
+          <ul class="navbar-links">
+               <li><a href="">Nosotros</a></li>
+               <li><a href="">Historia</a></li>
+               <li><a href="">Videos</a></li>
+          </ul>
+     </nav>
+</header>
+<section class="hero">
+     <div class="hero-content">
+          <h1>"Bienvenidos a Valle Grande"</h1>
+          <p>Aquí formamos personas para un Perú mejor</p>
+          <a href="#" class="btn">Leer más</a>
+     </div>
+</section>
+<section>
+     <div class="container">
+          <h2 class="txt">¿Quienes Somos?</h2>
+          <p>Valle Grande es actualmente un Centro de Educación Superior constituido por la Promotora de Obras Sociales
+               y de
+               Instrucción Popular (PROSIP) el 25 de febrero de 1965, reconocido por el Ministerio de Agricultura
+               mediante Resolución
+               Directoral N° 04383-AG-DGAG del 2 de junio de 1983 y por el Ministerio de Educación mediante Resolución
+               Ministerial
+               N°0751-92-ED.
+          </p>
+     </div>
+</section>
+
+<section>
+     <div class="container historico">
+          <div class="historico-texto">
+              <h2>Desarrollo Histórico</h2>
+               <p>Han transcurrido casi 50 años de trabajo y continuamos con el mismo deseo, seguir contribuyendo con el
+                    bienestar de las
+                    familias de Cañete y Yauyos.</p>
+               <a href="#" class="btn">Leer Más</a>
+          </div>
+          <div class="historico-imagen">
+               <img src="./img/Historia.jpg" alt="">
+          </div>
+     </div>
+</section>
+<section class="mision-vision">
+     <div>
+           <h2 class="txt">Misión y Visión</h2>
+     </div>
+     <div>
+         <h3>Misión</h3>
+          <p>
+               Formar personas en el ámbito técnico profesional, considerando el sentido trascendente del hombre,
+               desarrollando en
+               ellos competencias, que faciliten su inserción laboral, contribuyendo de esta manera al desarrollo del
+               país.
+          </p>
+     </div>
+     <div>
+          <h3>Visión</h3>
+          <p> Ser una institución referente de excelencia de la educación técnico profesional del Perú, asociada al
+               sector productivo.</p>
+     </div>
+</section>
+
+<footer>
+     <div class="footer-content">
+          <div class="contacto">
+               <h4>Contacto</h4>
+          </div>
+          <div class="items">
+               <ul>
+                    <li>Ruc: 20120099095</li>
+                    <li>Razon Social: I.E.S.T.P. VALLE GRANDE</li>
+                    <li>Direccion: Ant. Panamericana Sur Km. 144, San Vicente de Cañete <span>Cañete, Lima, Perú.
+                              Apartado Postal 70</span></li>
+                    <li><i class="fa-solid fa-phone"></i> Teléfono: (01) 581-2261</li>
+                    <li><i class="fa-solid fa-envelope"></i> Informes: informes@vallegrande.edu.pe</li>
+                    <li><i class="fa-solid fa-globe"></i> Página Web: <a href="www.vallegrande.edu.pe">Valle Grande</a>
+                    </li>
+               </ul>
+          </div>
+     </div>
+</footer>
+<body>
+
+</body>
+
+</html>
+
+/* Style.css*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+* {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+     font-size: 16px;
+     list-style: none;
+}
+
+body {
+     background-color: #f4f4f4;
+     color: black;
+     font-family: 'Poppins', sans-serif;
+}
+
+
+.container {
+     max-width: 1200px;
+     margin: 0 auto;
+     padding: 0 20px;
+}
+
+/* ESTILOS NAVBAR */
+
+.navbar {
+     background-color: white;
+     color: black;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 20px;
+}
+
+.navbar-logo img {
+     max-width: 200px;
+}
+
+.navbar-links {
+     display: flex;
+}
+
+.navbar-links li {
+     margin-right: 20px;
+     background-color: rgb(0, 0, 0);
+     padding: 14px;
+     border: 2px solid black;
+     border-radius: 40px;
+}
+
+.navbar-links li a {
+     color: rgb(255, 255, 255);
+     font-weight: 800;
+     text-decoration: none;
+     font-size: 15px;
+}
+
+/* ESTILOS SECCIÓN HERO */
+
+.hero {
+     background-image: url('../img/Patio.jpg');
+     background-size: cover;
+     background-position: center;
+     text-align: center;
+     padding: 200px 0;
+     font-family: "Playfair Display", serif;
+}
+
+.hero-content {
+     max-width: 600px;
+     margin: 0 auto;
+}
+
+.hero h1 {
+     font-size: 50px;
+     margin-bottom: 10px;
+     color: #f4f4f4;
+     font-weight: 900;
+     border-style: dashed;
+}
+
+.hero p {
+     font-size: 20px;
+     margin-bottom: 30px;
+}
+
+.btn {
+     display: inline-block;
+     background-color: #fdad00;
+     color: #fff;
+     padding: 10px 20px;
+     border-radius: 10px;
+     text-decoration: none;
+     border: 1px solid white;
+}
+
+.btn:hover {
+     color: black;
+     border: 1px solid black;
+}
+
+/* Seccion Quienes Somos */
+
+section {
+     padding: 50px 20px;
+     font-family: 'Poppins', sans-serif;
+}
+
+section h2 {
+     font-size: 50px;
+     color: #001f99;
+     margin-bottom: 20px;
+}
+
+section .txt {
+     color: rgb(0, 0, 0) !important;
+}
+
+section p {
+     font-size: 20px;
+     line-height: 1.6;
+}
+
+/*HISTORICO*/
+
+.historico {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-top: 50px;
+}
+
+.historico-texto {
+     flex: 1;
+     padding-right: 20px;
+}
+
+.historico-texto h2 {
+     font-size: 50px;
+     font-weight: 90;
+     border-bottom: 2px solid #000000;
+}
+
+.historico-texto p {
+     font-size: 20px;
+     line-height: 1.7;
+     margin-bottom: 20px;
+}
+
+.historico-imagen {
+     flex: 1;
+
+}
+
+.historico-imagen img {
+     max-width: 100%;
+     height: auto;
+     border-radius: 50px;
+}
+
+/* Sección Mision y Vision */
+
+.mision-vision {
+     display: flex;
+     justify-content: space-around;
+     align-items: flex-start;
+     margin-top: 50px;
+}
+
+.mision-vision>div {
+     flex: 1;
+     padding: 0 20px;
+     text-align: center;
+}
+
+.mision-vision h2 {
+     font-size: 36px;
+     color: #001f99;
+     margin-bottom: 20px;
+}
+
+.mision-vision h3 {
+     font-size: 28px;
+     color: #eb0000;
+     margin-bottom: 10px;
+}
+
+.mision-vision p {
+     font-size: 20px;
+     line-height: 1.6;
+     margin-bottom: 20px;
+}
+
+
+.organigrama {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     flex-direction: column;
+
+}
+
+.organigrama h2 a {
+     text-decoration: none;
+     font-size: 20px;
+     color: #ebc700;
+     text-shadow: 0 0 7px #ebc700;
+}
+
+.organigrama h3 {
+     color: red;
+     margin-bottom: 20px;
+}
+
+.organigrama iframe {
+     border: 2px solid blue;
+     border-radius: 50px;
+     box-shadow: 0 0 10px black;
+}
+
+/* FOOTER */
+footer {
+     background-color: #000000;
+     color: white;
+     padding: 20px;
+     text-align: center;
+     font-family: "Open Sans", sans-serif;
+}
+
+.contacto {
+     border-bottom: 8px solid rgb(7, 7, 7);
+     margin-bottom: 24px;
+}
+
+.contacto h4 {
+     font-size: 30px !important;
+}
+
+.items li {
+     list-style: none;
+     padding: 10px;
+     font-size: 20px;
+
+}
+
+.items li span {
+     color: rgb(248, 248, 250);
+     font-size: 23px;
+}
 
