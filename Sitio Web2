@@ -1,1 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Css/2.css">
+    <title>Página web</title>
+</head>
 
+<body>
+<section class="contenedor">
+    <header>
+        <div class="logo">
+            <img  src="img/logoVG.png" alt="">
+        </div>
+        <nav>
+            <ul>
+                <li ><a href="#">Nosotros</a></li>
+                <li ><a href="#">Historia</a></li>
+                <li ><a href="#">Videos</a></li>
+            </ul>
+            <h1>Bienvenidos a Valle Grande</h1>
+        </nav>
+            <div class="busqueda">
+            <input type="text" placeholder="Buscar">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+    </header>
+    <div class="contenido">
+        <div class="linea-decorativa">
+            <div class="circulo"></div>
+            <div class="circulo"></div>
+            <div class="circulo"></div>
+        </div>
+        <div class="left">
+            <h2>¿Quiénes Somos?</h2>
+            <p>
+                Valle Grande es actualmente un Centro de Educación Superior constituido por la Promotora de Obras Sociales y de Instrucción Popular (PROSIP) el 25 de febrero de 1965, reconocido por el Ministerio de Agricultura mediante Resolución Directoral N° 04383-AG-DGAG del 2 de junio de 1983 y por el Ministerio de Educación mediante Resolución Ministerial N°0751-92-ED.
+            </p>
+            <div class="left-2">
+                <h2>Desarrollo Histórico</h2>
+                <p>
+                    Desarrollo histórico
+                    Han transcurrido casi 50 años de trabajo y continuamos con el mismo deseo, seguir contribuyendo con el bienestar de las familias de Cañete y Yauyos.</p>                    
+             
+                    <button>Leer más</button>
+               <div class="left-3">
+                <h2>Misión y Visión</h2>
+                <h2>MISIÓN</h2>
+                 <p>
+                Formar personas en el ámbito técnico profesional, considerando el sentido trascendente del hombre, desarrollando en ellos competencias, que faciliten su inserción laboral, contribuyendo de esta manera al desarrollo del país.
+                </p>
+                    <h2>VISIÓN</h2>
+                <p>
+                    Ser una institución referente de excelencia de  la educación técnico profesional del Perú, asociada al sector productivo.
+                </p>
+                <div class="contacto">
+                    <h3>CONTACTO</h3>
+                 </div>
+                 <div class="contacto-ul">
+                 <ul>
+                    <li><a href="#"></a>RUC: 20120099095</li>
+                    <li><a href="#"></a>Razón Social: I.E.S.T.P. Valle Grande </li>
+                    <li><a href="#"></a>Ant. Panamericana Sur: Km.144.</li>
+                 </ul>
+
+                 <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15545.10731277064!2d-76.3877879!3d-13.081634!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x910ff935c4a035bb%3A0x1b32f04916c31d1c!2sIES%20Valle%20Grande!5e0!3m2!1ses!2spe!4v1709333982170!5m2!1ses!2spe" width="380" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                 <ul>
+                    <li><a href="#"></a>San Vicente de Cañete,Lima . Apartado Postal 70.</li>
+                    <li><a href="#"></a>Teléfono : (01)581-2261</li>
+                    <li><a href="#"></a>Informes: informes@vallegrande.edu.pe</li>
+                    <li><a href="#"></a>www.vallegrande.edu.pe</li>
+                 </ul>
+               </div>
+
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div>
+        <div class="right">
+            <div class="popular">
+            </div>
+            <div class="contenedor-fotos">
+                <img src="img/Patio.jpg" alt="">
+        </div>
+        <div class="contenedor-fotos-2">
+            <img src="img/Historia.jpg" alt="">
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
+
+
+/*CSS*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: 'Nunito' ;
+}
+body {
+    background: linear-gradient( to top, transparent ,rgb(255, 255, 255), url(img/Patio.jpg));
+    background-size: cover;
+    background-attachment: fixed;
+    height: 550vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor header {
+    overflow: hidden;
+}
+.contenedor {
+    max-width: 2000px;
+    background-color: rgba(78, 68, 68, 0.7);
+    border-radius: 70px ;
+    padding: 70px;
+    color: #fff;
+}
+.logo img {
+    width: 200px;
+    position: relative;
+    padding-top: 23px;
+    
+}
+.contenedor header h1 {
+    float:right;
+    line-height: 30px;
+    text-align: center;
+    padding-top: 80px;
+    font-size: 40px;
+    padding-left: 135px;
+}
+.contenedor header nav {
+    float: left;
+}
+.contenedor header nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding-top: 11px;
+    
+}
+.contenedor header nav ul li {
+    margin: 5 30px;
+}
+.contenedor header nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    line-height: 100px;
+    font-size: 15px;
+    padding: 5px 10px;
+    transition: .5%;
+    border-radius: 2px;
+}
+.contenedor header nav ul li a:hover {
+    background-color: #000000;
+    color:#fff;
+}
+.contenedor header .busqueda{
+    float: right;
+}
+.contenedor header .busqueda input {
+    display: inline-block;
+    width: 200px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    padding: 7px;
+    outline: none;
+    color: #000000;
+    border-right: 3px;
+    opacity: 0;
+}  
+.contenedor header .busqueda:hover {
+    opacity: 0;
+}
+.contenedor header .busqueda i {
+    cursor: pointer;
+}
+.contenedor .contenido {
+    display: flex;
+    position: relative;
+}
+.contenido .linea-decorativa{
+    position: absolute;
+    height: 500px;
+    border-left: 2px solid #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    top: 30%;
+    transform: translateY(-50%);
+}
+.contenido .linea-decorativa .circulo {
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-left: -9px;
+}
+
+.contenedor .contenido .left {
+    width: 40%;
+    margin-top: 30px;
+    padding-left: 20px;
+}
+.contenedor .contenido .left h2 {
+    padding-top: 60px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.contenedor .contenido .left p {
+    margin-bottom: 60px;
+    font-size: 16px;
+}
+.contenedor .contenido .left-2 h2{
+    padding-top: 0px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.contenedor .contenido .left-2 p {
+    margin-bottom: 50px;
+    font-size: 16px;
+}
+.contenedor .contenido .left-3 h2 {
+    padding-top: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.contenedor .contenido .left-3 p {
+    margin-bottom: 50px;
+    font-size: 16px;
+}
+.contacto h3 {
+    padding-top: 250px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+.contacto-ul ul li {
+    padding-top: 10px;
+    font-size: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 10px;
+    margin-left: 9px;
+}
+
+.maps{
+   position: relative;
+}
+.contenedor .contenido .left button {
+    display: inline-block;
+    border: none;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    padding: 8px 20px;
+    border-radius: 30px;
+    margin-bottom: 0px;
+    margin-top:-16px;
+    transition: .5%;
+    cursor: pointer;
+}
+.contenedor .contenido .left button:hover {
+    background-color: #818181;
+    color: #fff;
+}
+.contenedor .contenido .redes {
+    font-size: 12px;
+    width: fit-content;
+    padding-bottom: 15px;
+    border-bottom: 10px solid #ffffff;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.contenedor .contenido .redes a {
+    text-decoration: none;
+    color: #ffffff;
+    padding-top: 30px;
+}
+.contenedor .contenido .right {
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-end;
+    text-align: right;
+}
+.contenedor .contenido .right .popula {
+    border-bottom: 2px solid #000000;
+    width: 100px;
+    padding-bottom: 5px;
+}
+.contenedor .contenido .right .contenedor-fotos img {
+       width: 370px;
+       position: relative;
+       left: 185%;
+       top: -1780px;
+       margin: 0%;
+}
+.contenedor .contenido .right .contenedor-fotos-2 img {
+       width: 400px;
+       position: relative;
+       left: 170%;
+       top: -1700px;
+       margin: 0%;
+}
