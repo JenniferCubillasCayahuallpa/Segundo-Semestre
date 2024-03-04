@@ -1,0 +1,147 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.proyecto1;
+
+/**
+ *
+ * @author Lab4
+ */
+public class Ejercicio1 {
+
+    public static void main(String[] args) {
+      int a,b;
+      
+      a=100;
+      b=20;
+      
+      
+      System.out.println(a+b);
+      
+      
+      
+     
+      
+    }
+}
+
+//Numero2
+
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.proyecto1;
+
+/**
+ *
+ * @author Lab4
+ */
+public class Ejercicio2 {
+
+    public static void main(String[] args) {
+        int b,c;
+        b=15;
+        c=5;
+                
+        System.out.println(b-c);
+    }
+}
+ //numero3
+
+ /*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.proyecto1;
+
+/**
+ *
+ * @author Lab4
+ */
+public class Ejercicio3 {
+
+    public static void main(String[] args) {
+        int f,o;
+        f=12;
+        o=3;
+        System.out.println(f*o);
+        
+    }
+}
+//numero4
+
+/**
+ *
+ * @author Lab4
+ */
+public class Ejercicio4 {
+    public static void main(String[] args) {
+      
+    float a,b,multiplicación,división,suma,resta;
+    a=100;
+    b=10;
+    multiplicación=a*b;
+    división=a/b;
+    suma=a+b;
+    resta=a-b;
+    
+    
+    
+    System.out.println("La suma es: "+suma
+    +"\nLa resta es: "+resta
+    +"\nLa multiplicación es:"+multiplicación
+    +"\nLa división es"+división);
+
+}
+}
+//numero5
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package com.mycompany.proyecto1;
+
+import javax.swing.JOptionPane;
+
+/**
+ *
+ * @author Lab4
+ */
+public class Ejercicio5 {
+      public static void main(String[] args) {
+    float numero1 , numero2;
+    
+ numero1 = Float.parseFloat(JOptionPane.showInputDialog("Introduce el primer número:"));
+ numero2 = Float.parseFloat(JOptionPane.showInputDialog("Introduce el primer número:"));
+    
+    System.out.println("El resulado de la suma es: "+(numero1+numero2));
+      }
+}
+
+ //numero6
+
+ /*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package com.mycompany.proyecto1;
+
+/**
+ *
+ * @author Lab4
+ */
+public class Ejercicio6 {
+      public static void main(String[] args) {
+          int a,b;
+      
+    JOptionPane.showInputDialog("La suma es: "+(a+b)
+    +"\nLa resta es: "+(a-b)
+    +"\nLa multiplicación es:"+(a*b)
+    +"\nLa división es"+(a/b));
+      
+    
+    JOptionPane.showMessageDialog("El resultado es: ");
+}
+}
